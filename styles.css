@@ -4,7 +4,36 @@ h1{
 }
 body{
     font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 .tr{
     color: orangered;
 }
+.first{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+img{
+    height: 480px;
+    width: 480px;
+}
+#ban{
+    height: 3px;
+    width: 80%;
+}
+button{
+    background-image:linear-gradient(orange, orangered);
+    padding: 10px 20px;
+    font-weight:bold;
+    color:white;
+    border-radius: 10px;
+}
+.faw:hover{
+    color: black;
+    background-color: white !important;
+    font-weight: bolder;
+    width: 20%;
+}
+
