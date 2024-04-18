@@ -76,6 +76,7 @@ p{
 .for-box{
     box-shadow:10px 10px 40px rgb(167, 122, 39);
     border-radius: 10px;
+    background-color: white;
 }
 .for-box:hover{
     width:500px;
@@ -89,11 +90,21 @@ p{
 }
 #des{
     border-left: 7px solid royalblue;
-    border-image:linear-gradient ( blue,orange) ;
+    border-image:linear-gradient (180deg blue,orange) ;
     border-image-slice: 1;
 }
 #bes{
     border-left: 7px solid black;
 
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color:rgb(119, 43, 190);
+    font-weight:500;
+    font-size: 15px;
+    
+}
+#foot{
+    text-decoration: none;
 }
