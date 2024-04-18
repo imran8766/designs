@@ -78,7 +78,7 @@ p{
     border-radius: 10px;
 }
 .for-box:hover{
-    width:550px;
+    width:500px;
     color:darkblue;
     background-color:#eef2e2;
 }
@@ -86,4 +86,14 @@ p{
     background-image:url("exp.png") ;
     background-repeat: no-repeat;
     background-position:left ;
+}
+#des{
+    border-left: 7px solid royalblue;
+    border-image:linear-gradient ( blue,orange) ;
+    border-image-slice: 1;
+}
+#bes{
+    border-left: 7px solid black;
+
+    border-image-slice: 1;
 }
