@@ -4,20 +4,21 @@ h1{
 }
 body{
     font-family: "Poppins", sans-serif;
-    margin: 0;
+
 }
 .tr{
-    color: orangered;
+    color:red;
 }
 .first{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top:5% ;
 }
 img{
-    height: 480px;
-    width: 480px;
+    height: 400px;
+    width: 400px;
 }
 #ban{
     height: 3px;
@@ -26,14 +27,49 @@ img{
 button{
     background-image:linear-gradient(orange, orangered);
     padding: 10px 20px;
-    font-weight:bold;
+    font-weight:bolder;
     color:white;
     border-radius: 10px;
+    text-decoration: none;
 }
 .faw:hover{
     color: black;
     background-color: white !important;
     font-weight: bolder;
-    width: 20%;
+    width: 30%;
 }
+section{
+    height: 500px;
+    padding-bottom: 70px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: rgb(24, 23, 23);
+}
+.vbb{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image:linear-gradient(rgb(184, 140, 140),orange );
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.vbb:hover{
+    color: black;
 
+    font-weight: bolder;
+    width: 30%;
+    font-size: 20px;
+}
+.second{
+    background-image:url("dream.png") ;
+    background-repeat: no-repeat;
+    background-position:right ;
+}
+.top{
+    background-image:url("exp.png") ;
+    background-repeat: no-repeat;
+    background-position:left ;
+}
